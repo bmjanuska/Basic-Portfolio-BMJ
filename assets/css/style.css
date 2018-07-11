@@ -2,7 +2,12 @@
 body {
     background-image: url("../images/flowerpower.png");
 }
-
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
 .container {
     width:960px;
     background-color: #fff;
@@ -39,12 +44,12 @@ header {
     border-width: 0px 0px 3px 0px;
     border-style: solid;
     height:100px;
-    padding: 25px 0px;
+    padding: 0 50px;
 }
 
 h1{
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 h2{
@@ -64,8 +69,10 @@ hr {
 .logo{
     background-color: #4aaaa5;
     color: #fff;
-    width: 20%;
-    float:left;
+    width: 39%;
+    float: left;
+    height: 100%;
+    margin-left: 75px;
 }
 
 .navigation{
@@ -73,7 +80,7 @@ hr {
     text-align: right;
     height:80px;
     margin: 0 auto;
-    padding: 25px 0px;
+    padding-top: 25px;
 }
 
 
