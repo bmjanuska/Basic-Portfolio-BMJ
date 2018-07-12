@@ -30,17 +30,26 @@
         <h2>Contact</h2>
         <hr>
         <form>
-            <p>Name</p>
-            <input type="text">
-            <br>
-            <p>Email</p>
-            <input type="text" >
-            <br>
-            <p>Message</p>
-            <input type="text" style="height:300px;">
-
-
+            <div>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="user_name">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <br>
+                <input type="email" name="user_email">
+            </div>
+            <div>
+                <label for="msg">Message</label>
+                <br>
+                <textarea type="text" name="user_message"></textarea>
+            </div>
         </form>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
 
     </div>
     <div class="push"></div>
