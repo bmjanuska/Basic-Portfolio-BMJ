@@ -110,7 +110,7 @@ hr {
 #myphoto {
     float: left; 
     margin: 15px; 
-}
+}                                                                                       
 
 .bio{
     margin:25px;
@@ -165,7 +165,7 @@ textarea {
 
 /* PORTFOLIO */
 
-.row{
+.gal{
     /* display: flex; */
 }
 
@@ -184,13 +184,18 @@ textarea {
     z-index: 5;
 }
 
-.column {
+.posttag:hover{
+    background-color: #F25D50;
+}
+
+
+.item {
     float: left;
     width: 33.3%;
     padding: 15px;
 }
 
-.row::after {
+.gal::after {
     content:"";
     clear: both;
     display: table;
@@ -239,3 +244,5 @@ textarea {
     background-position:center center;
     background-image: url("../images/nick-cooper-731675-unsplash.jpg");
 }
+
+
