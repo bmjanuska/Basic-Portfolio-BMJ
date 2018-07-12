@@ -11,7 +11,7 @@ header {
 }
 
 .logo{
-    background-color: #4aaaa5;
+    background-color: #A65656;
     color: #fff;
     width: 20%;
     float: left;
@@ -39,7 +39,7 @@ html, body {
     width:960px;
     background-color: #fff;
     border-style: solid;
-    border-color:#dddddd;
+    border-color:#F2F2F2;
     margin: 23px auto;
     padding: 25px;
     border-width: 1px;
@@ -51,7 +51,7 @@ footer{
     color: #fff;
     text-align:center;
     height:50px;
-    border-color: #4aaaa5;
+    border-color: #A65656;
     border-width: 3px 0px 0px 0px;
     border-style: solid;
 }
@@ -76,7 +76,7 @@ h1{
 }
 
 h2{
-    color: #4aaaa5;
+    color: #A65656;
     font-size: 24px;
     font-weight: bold;
     margin: 25px 0;
@@ -95,7 +95,7 @@ a{
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #F25D50;
 }
 
 /* DIVIDERS */
@@ -116,8 +116,7 @@ hr {
     margin:25px;
 }
 
-.footer,
-.push {
+.footer, .push {
   height: 40px;
 }
 
@@ -135,16 +134,15 @@ button {
     padding: 10px 30px;
     color:#fff;
     margin: 10px 0 auto;
-    background-color: #4aaaa5;
+    background-color: #F2A663;
     border-width: 0px;
     border-radius: 5px;
     font-size: 18px;
 
 }
 
-button:hover{
-    background-color: rgb(90, 64, 161)
-
+button:hover {
+    background-color: #F25D50;
 }
 
 /* FORM */
@@ -175,15 +173,9 @@ textarea {
     text-align: center;
 }
 
-.portfolio{
-    position: relative;
-    height: 200px;
-    background-color: grey;
-}
-
 .posttag{ 
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: #F2A663;
     width: 100%;
     height: 50px;
     color: #fff;
@@ -202,4 +194,48 @@ textarea {
     content:"";
     clear: both;
     display: table;
+}
+
+
+.project1{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url("../images/charisse-kenion-507276-unsplash.jpg");
+}
+
+
+.project2{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url("../images/brooke-lark-261287-unsplash.jpg");
+}
+
+
+.project3{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url("../images/mark-tegethoff-667351-unsplash.jpg");
+}
+
+
+.project4{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url("../images/alisa-anton-732931-unsplash.jpg");
+}
+
+.project5{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url("../images/nick-cooper-731675-unsplash.jpg");
 }
