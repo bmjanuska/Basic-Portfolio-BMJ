@@ -150,45 +150,25 @@ textarea {
     position: relative;
 }
 
-.posttag, .portfolio_post {
+.posttag, .portfolio_post{
     text-align: center;
 }
 
-.portfolio {
+.portfolio{
     height: 200px;
     width: 33.3%;
     margin: 20px; 
-    background-color: red;
+    background-color: grey;
 }
 
 .posttag{ 
     position: absolute;
     background-color: #4aaaa5;
-    width: 100%;
+    width: 33.3%;
     height: 50px;
     bottom: 0;
     color: #fff;
     bottom: 20px;
+    line-height:50px;
 }
 
-.portfolio_post-1{ 
-    top: ;
-    left: ;
-}
-
-.portfolio_post-2{ 
-    top: ;
-    left: ;
-}
-.portfolio_post-3{ 
-    top: ;
-    left: ;
-}
-.portfolio_post-4{ 
-    top: ;
-    left: ;
-}
-.portfolio_post-5{ 
-    top: ;
-    left: ;
-}
